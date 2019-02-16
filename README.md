@@ -1,4 +1,4 @@
-	# A Simple String Parsing
+# A Simple String Parsing
 
 These software provided 2 javascript functions wrote on html file to solve problems. First find the longest word and second sum all digits in string.
 
@@ -87,7 +87,7 @@ If you want to edit Test case. Just open `tests/simple-string-parsing.test.js`.
 
 I chose javascript in HTML file with **Regular expressions** algorithm for this work. Because function javascript on HTML It's easy run and test to whom that I don't know their environment and Regular expressions helps my code a less complexity and easy to maintain. 
 
-Maybe other algorithm such as **while loop** with **String operations**. It will be faster than Regular expressions. But If a problem glow bigger, very complex or you need to change something. You'll spend much more time to refactoring it.
+Maybe other algorithm such as **while loop** with **String operations**. It will be faster than Regular expressions. But If a problem grow bigger, very complex or you need to change something. You'll spend much more time to refactoring it.
 Regular expressions can do complicated work with reasonably priced in my opinion. 
 
 
