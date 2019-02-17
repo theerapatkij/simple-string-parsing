@@ -1,6 +1,6 @@
 # A Simple String Parsing
 
-These software provided 2 javascript functions wrote on html file to solve problems. First find the longest word and second sum all digits in string.
+This software provided 2 javascript functions wrote on HTML file to solve problems. First, find the longest word and second sum all digits in the string.
 
 ## Getting Started
 
@@ -8,9 +8,9 @@ These software provided 2 javascript functions wrote on html file to solve probl
 
 You need **jQuery** to run two functions in `app/simple-string-parsing.js`. 
 
-If you just want only for test or demo in this project. I already provide in `lib/jquery` folder. You don't need to install jQuery again to run.
+If you want to test/demo this project only I provide the jQuery in `lib/jquery` folder. You don't need to install jQuery to run test.
 
-[jQuery](https://jquery.com/download/)  This link will take you to download and how to install jQuery if you need.
+[jQuery](https://jquery.com/download/)  This link will take you to download and install jQuery.
 
 
 
@@ -22,16 +22,16 @@ Clone a copy git repo by running:
 git clone git://github.com/theerapatkij/simple-string-parsing.git
 ```
 
-If you don't have git or don't want to use it. Just download zip file then unzip to your computer.
+If you don't have git or don't want to use it, please download zip file then unzip to your computer.
 
 
 ##Run & Usage
 
-First, open a html file name `app/simple-string-parsing.html` with your browser. 
+First, open HTML file name `app/simple-string-parsing.html` with your browser. 
 
-Put string input in textarea and then click Submit button.
+Input string and then click the Submit button.
 
-Result (The longest word and sum of all digits) will show below.
+The result (The longest word and sum of all digits) will show below.
 
 
 ## Output given test strings
@@ -74,10 +74,10 @@ sum : 82
 
 ## Tests
 
-I'm also wrote a automated tests with [Mocha](https://mochajs.org/) on HTML file. You can run it by follow below Instruction.
+I wrote an automated tests with [Mocha](https://mochajs.org/) on HTML file. You can run by follow below instruction.
 
 ### Run test
-Open file `tests/string-parsing-test.html` in browser. Then you will see a functions name and lists of Test case.
+Open file `tests/string-parsing-test.html` in browser. You will see a functions name and lists of the test case.
 
 If you want to edit Test case. Just open `tests/simple-string-parsing.test.js`.
 
@@ -85,9 +85,9 @@ If you want to edit Test case. Just open `tests/simple-string-parsing.test.js`.
 
 ## Choices, limitations and algorithm performance
 
-I chose javascript in HTML file with **Regular expressions** algorithm for this work. Because function javascript on HTML It's easy run and test to whom that I don't know their environment and Regular expressions helps my code a less complexity and easy to maintain. 
+I choose javascript in HTML file for this work because javascript function on HTML is easy run and test. For whom that I don't know their environment I also choose **Regular expressions** in my code less complex and easy to maintain. 
 
-Maybe other algorithm such as **while loop** with **String operations**. It will be faster than Regular expressions. But If a problem grow bigger, very complex or you need to change something. You'll spend much more time to refactoring it.
-Regular expressions can do complicated work with reasonably priced in my opinion. 
+Maybe other algorithm such as **while loop** with **String operations** is faster than Regular expressions. But If a problem grow bigger, very complex or you need to change something. You have to spend more time to refactoring it.
+Although Regular expressions are complicated but I think it is reasonable to use. 
 
-
+The longest word function includes the characters 'A-Z' or 'a-z', and the '-' character as being part of "word" (assume one dash '-' in a middle of word if '-' at beginning, end or double dash '--'. It doesn't count in this function.)

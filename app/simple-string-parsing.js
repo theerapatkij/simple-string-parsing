@@ -2,7 +2,7 @@ function getLongestWord(input) {
 
     if($.trim(input) != '') {
 
-        var patt = /[A-Za-z]+(?:-+[A-Za-z]+)*/g;
+        var patt = /[A-Za-z]+(?:-{1}[A-Za-z]+)*/g;
 
         var match = input.match(patt);
         if(match != null) {
