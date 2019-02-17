@@ -25,7 +25,7 @@ git clone git://github.com/theerapatkij/simple-string-parsing.git
 If you don't have git or don't want to use it, please download zip file then unzip to your computer.
 
 
-##Run & Usage
+## Run & Usage
 
 First, open HTML file name `app/simple-string-parsing.html` with your browser. 
 
